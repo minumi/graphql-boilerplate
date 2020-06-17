@@ -1,7 +1,6 @@
 # GrpahQL with TypeScript, TypeORM
 
 It's a bolierplate to kick off for GrpahQL.  
-I'm going to use it when I start a project.
 
 ## Features
 
