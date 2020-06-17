@@ -1,0 +1,23 @@
+type SayGoodbyeResponse {
+  ok: Boolean!
+  greeting: String!
+}
+
+type Query {
+  SayGoodbye: SayGoodbyeResponse!
+  sayHello: SayHelloResponse!
+}
+
+type SayHelloResponse {
+  ok: Boolean!
+  greeting: String!
+}
+
+type User {
+  id: ID!
+  email: String
+  verifiedEmail: Boolean!
+  password: String
+  createAt: String!
+  updateAt: String
+}

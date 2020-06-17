@@ -1,0 +1,8 @@
+type SayHelloResponse {
+  ok: Boolean!
+  greeting: String!
+}
+
+type Query {
+  sayHello: SayHelloResponse!
+}
